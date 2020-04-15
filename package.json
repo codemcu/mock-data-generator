@@ -1,0 +1,14 @@
+{
+  "name": "mock-data-schema",
+  "version": "0.0.1",
+  "description": "mock data generated",
+  "main": "generateData.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Mauricio Correa <frontend.mcu@gmail.com>",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "json-schema-faker": "^0.5.0-rcv.24",
+    "json-server": "0.16.1"
+  }
+}
