@@ -5,12 +5,16 @@
   "description": "mock data generated",
   "main": "generateData.js",
   "scripts": {
-    "generate": "node ./src/generateData.js"
+    "openurl": "open http://localhost:3000/user",
+    "generate": "node ./src/generateData.js",
+    "server": "json-server ./src/mock/db.json",
+    "start": "npm run generate && npm run server"
   },
   "keywords": [],
   "license": "Apache 2.0",
   "devDependencies": {
     "json-schema-faker": "^0.5.0-rcv.24",
-    "json-server": "0.16.1"
+    "json-server": "0.16.1",
+    "open": "7.0.3"
   }
 }
